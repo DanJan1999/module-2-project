@@ -8,7 +8,7 @@
 //CODE HERE
 
 function sum(num1, num2) {
-  return num1+ num2
+  return num1+ num2;
 };
 console.log(sum(2, 4));
 
@@ -24,10 +24,10 @@ console.log(sum(2, 4));
 
 function greaterThanFive(number) {
   if (number > 5) {
-    return true
+    return true;
   } else {
-    return false
-  }
+    return false;
+  };
 };
 console.log(greaterThanFive(3));
 
@@ -41,15 +41,15 @@ console.log(greaterThanFive(3));
 
 //CODE HERE
 
-let letterZ = `z`;
 function findZWords(word) {
-  if (word.indexOf(letterZ) === 0) {
-    console.log(`The name begins with Z`)
+  word = word.toLowerCase();
+  if (word.startsWith(`z`)) {
+    return `The name begins with Z`;
   } else {
-    console.log(`The name does not begin with Z`)
-  }
+    return `The name does not begin with Z`;
+  };
 };
-findZWords(`Zach`);
+console.log(findZWords(`Zach`));
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -61,6 +61,6 @@ findZWords(`Zach`);
 //CODE HERE
 
 function iLove(name, love) {
-  return `${name} loves ${love}!`
+  return `${name} loves ${love}!`;
 };
 console.log(iLove(`Daniel`, `music`));

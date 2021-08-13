@@ -21,7 +21,7 @@ firstName: `Daniel`,
 state: `Utah`, 
 age: 22, 
 greeter() {
-  return `Hello! My name is ${this.firstName} and I live in ${this.state}!`
+  return `Hello! My name is ${this.firstName} and I live in ${this.state}!`;
   }
 };
 
@@ -55,16 +55,13 @@ console.log(me.greeter());
 //CODE HERE
 
 function carFactory(make, model, year) {
-  let myCar = new Object()
-  myCar.make = `${make}`
-  myCar.model = `${model}`
-  myCar.year = year
-  if (myCar.year > 2018) {
-    myCar.isNew = true
+  let myCar = {make, model, year};
+  if (year > 2018) {
+    myCar.isNew = true;
   } else {
-    myCar.isNew = false
-  }
-  return myCar
+    myCar.isNew = false;
+  };
+  return myCar;
 };
 
 console.log(carFactory(`Toyota`, `Corolla`, 2020));

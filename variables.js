@@ -3,7 +3,7 @@
 
 //CODE HERE 
 
-let myName = `Daniel`;
+const myName = `Daniel`;
 console.log(myName);
 
 //////////////////PROBLEM 2////////////////////
@@ -12,6 +12,7 @@ console.log(myName);
 //CODE HERE
 
 let faveNum = `8`;
+console.log(faveNum);
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
@@ -31,9 +32,9 @@ console.log(lovesCode);
 //CODE HERE
 
 if (faveNum === 13) {
-  console.log(`Lucky 13!`)
+  console.log(`Lucky 13!`);
 } else {
-  console.log(`Not lucky 13...`)
+  console.log(`Not lucky 13...`);
 };
 
 //////////////////PROBLEM 5////////////////////
@@ -44,5 +45,5 @@ if (faveNum === 13) {
 //CODE HERE
 
 for (let i = 0; i < 5; i++) {
-  console.log(faveNum)
+  console.log(faveNum);
 };

@@ -11,7 +11,7 @@
 
 //CODE HERE
 
-let gitDefinition = `Git is a version manager for documents`;
+let gitDefinition = `Git is a local version control/manager for documents on your computer`;
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -21,7 +21,7 @@ let gitDefinition = `Git is a version manager for documents`;
 
 //CODE HERE
 
-let gitHubDefinition = `GitHub is a collaborating tool that allows users to view versions created using Git`;
+let gitHubDefinition = `GitHub is a collaborating tool that allows users to view versions created and sent using Git`;
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
