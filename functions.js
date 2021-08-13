@@ -10,7 +10,7 @@
 function sum(num1, num2) {
   return num1+ num2
 };
-// console.log(sum(2, 4));
+console.log(sum(2, 4));
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -29,7 +29,7 @@ function greaterThanFive(number) {
     return false
   }
 };
-//console.log(greaterThanFive(3));
+console.log(greaterThanFive(3));
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -49,7 +49,7 @@ function findZWords(word) {
     console.log(`The name does not begin with Z`)
   }
 };
-//findZWords(`Zach`);
+findZWords(`Zach`);
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -63,4 +63,4 @@ function findZWords(word) {
 function iLove(name, love) {
   return `${name} loves ${love}!`
 };
-//console.log(iLove(`Daniel`, `music`));
+console.log(iLove(`Daniel`, `music`));

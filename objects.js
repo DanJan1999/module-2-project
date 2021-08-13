@@ -25,7 +25,7 @@ greeter() {
   }
 };
 
-//console.log(me.greeter());
+console.log(me.greeter());
 
 
 //////////////////PROBLEM 2////////////////////
@@ -67,4 +67,4 @@ function carFactory(make, model, year) {
   return myCar
 };
 
-//console.log(carFactory(`Toyota`, `Corolla`, 2020));
+console.log(carFactory(`Toyota`, `Corolla`, 2020));

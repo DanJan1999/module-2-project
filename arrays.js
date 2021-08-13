@@ -13,7 +13,7 @@ let colorCopy = faveColors.slice(0, 3);
 //CODE HERE
 
 colorCopy.push(`Blue`);
-//console.log(colorCopy);
+console.log(colorCopy);
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,7 +26,7 @@ const numbers = [1, 2, 3, 4, 5]
 //CODE HERE
 
 let middleNums = numbers.slice(1, 4);
-//console.log(middleNums);
+console.log(middleNums);
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -42,7 +42,7 @@ let middleNums = numbers.slice(1, 4);
 */
 // CODE HERE
 
-//let sampleArray = [101, 99, 100, 103, 98]
+let sampleArray = [101, 99, 100, 103, 98]
 
 function bigOrSmall(arr) {
   let answers = []
@@ -55,4 +55,4 @@ function bigOrSmall(arr) {
   }
   return answers
 };
-//console.log(bigOrSmall(sampleArray));
+console.log(bigOrSmall(sampleArray));

@@ -4,7 +4,7 @@
 //CODE HERE 
 
 let myName = `Daniel`;
-// console.log(myName);
+console.log(myName);
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
@@ -19,7 +19,7 @@ let faveNum = `8`;
 //CODE HERE
 
 let lovesCode = true;
-// console.log(lovesCode);
+console.log(lovesCode);
 
 //////////////////PROBLEM 4////////////////////
 /*
